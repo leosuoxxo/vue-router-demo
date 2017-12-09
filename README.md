@@ -15,8 +15,12 @@ npm run dev
 # 打包所有檔案並產生 dist目錄
 npm run build
 
+
 ```
 
+
+``` 
+#目錄結構
 |--dist  // 打包完成的程式碼 ** http server
 |--build  //webpack相關程式碼
 |  |--build.js //production環境結構相關
@@ -37,5 +41,7 @@ npm run build
 |  |--main.js  //程式入口，整合所有程式
 |--static  
 |--index.html  //
+
+```
 
 
