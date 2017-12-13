@@ -1,6 +1,6 @@
 <template>
  <div class="col-sm-12">
-     <ul class="row">
+     <div class="row">
          <div class="col-sm-3">
            <router-link to="/hello">hello</router-link>
         </div>
@@ -10,7 +10,7 @@
          <div class="col-sm-3">
              <router-link to="/member/login">Member</router-link>
         </div>
-     </ul>
+     </div>
  </div>
 </template>
 <script>

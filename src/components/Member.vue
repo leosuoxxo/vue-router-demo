@@ -3,7 +3,7 @@
 <div class="div">
     <h1>會員</h1>
 <div class="col-sm-4 loginbox">
-        <Login></Login>
+        <!-- <Login></Login> -->
         <router-view/>
 </div>
 
@@ -12,7 +12,10 @@
 <script>
 import Login from "./Member/Login";
 export default {
-  name:"Vue"
+  name:"Member",
+  components: {
+    //   Login
+  }
 }
 </script>
 <style scoped>
